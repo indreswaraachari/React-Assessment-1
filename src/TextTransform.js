@@ -47,7 +47,7 @@ function TextTransform() {
         <div className="transformed-item">
           <div className="heading-box">
             <h3 className="green-heading">Lower Case</h3>
-          </div>
+          </div>  
           <div className="box">{transformedText.lowerCase}</div>
         </div>
         <div className="transformed-item">
