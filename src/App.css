@@ -1,42 +1,51 @@
+
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
+
+.box {
+  border: 1px solid rgb(216, 214, 214);
+  padding: 20px;
+  background-color: rgb(207, 206, 206);
+  overflow-wrap: break-word;
+  margin-inline-start: 20px;
+}
+
 
 .input-box, .transformed-item {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .input-box h3, .heading-box h3 {
-  margin-bottom: 5px;
+  margin-bottom: -4px;
 }
 
 textarea {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   font-size: 16px;
   margin-top: 5px;
 }
 
-.box {
-  border: 1px solid #ccc;
-  padding: 10px;
-  overflow-wrap: break-word;
-  
+/* Transformed text styles */
+.transformed-text {
+  width: 50%;
 }
+
+
 .green-heading {
   display: block;
   border: 1px solid green;
   background-color: green;
-  width: 100%;
+  width: 15%;
   color: white;
+  margin-left: 40px;
 }
 
 .heading-box {
   border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
+  padding-bottom: -5px;
+  margin-left: 20px;
 }
-
-
